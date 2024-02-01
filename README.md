@@ -67,7 +67,13 @@ Wanderlust: Online Continual Object Detection in the Real World
 
 Overcoming Catastrophic Forgetting in Incremental Object Detection via Elastic Response Distillation
 
-Core50: a new dataset and benchmark for continuous object recognition.
+Core50: a new dataset and benchmark for continuous object recognition
+
+Towards open world object detection
+
+Learn to detect objects incrementally
+
+Incdet: In defense of elastic weight consolidation for incremental object detection
 
 
 
