@@ -38,7 +38,7 @@ Authors found out that even though most of the current research appeals to the s
 [7] M. Delange, R. Aljundi, M. Masana, S. Parisot, X. Jia, A. Leonardis,G. Slabaugh, T. Tuytelaars, A continual learning survey: Defying forgetting in classification tasks, IEEE Transactions on Pattern Analysis and Machine Intelligence (2021). https://arxiv.org/pdf/1909.08383.pdf
 
 
-# INSPIRED PAPERS FROM CLASSIFICATION LITERATURE
+# KNOWLEDGE DISTILLATION FROM CLASSIFICATION LITERATURE
 
 Learning without Forgetting (LWF) - Z. Li, D. Hoiem, Learning without forgetting, IEEE transactions on pattern analysis and machine intelligence 40 (2017) 2935–2947.
 
