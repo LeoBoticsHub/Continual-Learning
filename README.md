@@ -31,11 +31,11 @@ Authors found out that even though most of the current research appeals to the s
 
 [4] J. Zhai, X. Liu, Technical report for domain incremental object detection, Available at: https://sslad2021.github.io/, 2021.
 
-[5] R. Hadsell, D. Rao, A. A. Rusu, R. Pascanu, Embracing change: Continual learning in deep neural networks, Trends in cognitive sciences (2020).
+[5] R. Hadsell, D. Rao, A. A. Rusu, R. Pascanu, Embracing change: Continual learning in deep neural networks, Trends in cognitive sciences (2020). 
 
-[6] G. I. Parisi, R. Kemker, J. L. Part, C. Kanan, S. Wermter, Continual lifelong learning with neural networks: A review, Neural Networks 113 (2019) 54–71
+[6] G. I. Parisi, R. Kemker, J. L. Part, C. Kanan, S. Wermter, Continual lifelong learning with neural networks: A review, Neural Networks 113 (2019) 54–71 https://arxiv.org/pdf/1802.07569.pdf
 
-[7] M. Delange, R. Aljundi, M. Masana, S. Parisot, X. Jia, A. Leonardis,G. Slabaugh, T. Tuytelaars, A continual learning survey: Defying forgetting in classication tasks, IEEE Transactions on Pattern Analysis and Machine Intelligence (2021).
+[7] M. Delange, R. Aljundi, M. Masana, S. Parisot, X. Jia, A. Leonardis,G. Slabaugh, T. Tuytelaars, A continual learning survey: Defying forgetting in classification tasks, IEEE Transactions on Pattern Analysis and Machine Intelligence (2021). https://arxiv.org/pdf/1909.08383.pdf
 
 
 # INSPIRED PAPERS FROM CLASSIFICATION LITERATURE
