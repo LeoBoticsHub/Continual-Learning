@@ -1,5 +1,12 @@
 # Continual-Learning
 
+In recent years, machine learning models have been reported to exhibit or even surpass human level performance on individual tasks, such as object recognition. While these results are impressive, they are obtained with static models incapable of adapting their behavior over time. As such, this requires restarting the training process each time new data becomes available. In our dynamic world, this practice quickly becomes intractable for data streams or may only be available temporarily due to storage constraints or privacy issues. This calls for systems that adapt continually and keep on learning over time. Human cognition exemplifies such systems, with a tendency to learn concepts sequentially. Revisiting old concepts by observing examples may occur, but is not essential to
+preserve this knowledge, and while humans may gradually forget old information, a complete loss of previous knowledge is rarely attested. By contrast, artificial neural networks cannot learn in
+this manner: they suffer from catastrophic forgetting of old concepts as new ones are learned. To circumvent this problem, research on artificial neural networks has focused mostly on static tasks, with usually shuffled data to ensure i.i.d. conditions, and vast performance increase by revisiting training data over multiple epochs. Continual Learning studies the problem of learning from
+an infinite stream of data, with the goal of gradually extending acquired knowledge and using it for future learning. Continual learning is also referred to as lifelong learning, sequential learning or incremental learning. The major challenge is to learn without catastrophic forgetting: performance on a previously learned task or domain should not significantly degrade over time as new tasks or domains are added. This is a direct result of a more general problem in neural networks, namely the stability-plasticity dilemma, with plasticity referring to the ability of integrating new knowledge, and stability retaining previous knowledge while encoding it.
+
+From this paper: A continual learning survey: Defying forgetting in classification tasks
+
 # SURVEY
 Continual Object Detection: A review of definitions, strategies, and challenges
 
