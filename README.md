@@ -85,5 +85,7 @@ Learn to detect objects incrementally
 
 Incdet: In defense of elastic weight consolidation for incremental object detection
 
+# OTHERS:
 
+iCaRL: Incremental Classifier and Representation Learning
 
