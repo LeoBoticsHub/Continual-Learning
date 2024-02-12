@@ -61,6 +61,22 @@ Continual Learning for Robotics: Definition, Framework, Learning Strategies, Opp
 From the conclusion section: *Our quantitative evaluation, including the measurement of Backward and Forward Transfer, confirmed that employing these methods indeed improves the overall model per-
 formance, compared to a simple continuation of the model training on the new domain. The best performance was achieved by Joint Training (JT)-100%, i.e. training the model on the entire combined datasets from both domains. However, in real world scenarios, e.g. adapting models which are already deployed in the clinic, for legal and privacy reasons it is questionable that the data used for training the original model is always accessible. Hence, the EWC and LWF methods which do not rely on old training samples are of high practical relevance. Our experiments indicate that these regularization techniques indeed allow a model adaption to the target domain while preserving a performance on the original domain which is still close to the JT baseline.*
 
+# KNOWLEDGE DISTILLATION FOR Continual Object Detection (COD)
+
+1) Task Regularized Hybrid Knowledge Distillation For Continual Object Detection (not accepted but very interesting)
+
+In order to improve the performance of continual object detection, this paper propose a knowledge distillation method that combines knowledge selection strategy and knowledge transfer strategy effectively. For the first strategy, hard knowledge and soft knowledge are dynamically and adaptively combined to construct a kind of hybrid knowledge representation to use teacher knowledge critically and effectively. For the second strategy, loss difference and category proportion are combined to construct task regularized distillation loss to enhance task balance learning.
+
+From the introduction section: *In summary,the keys of knowledge distillation are what knowledge should be selected from teacher and how it is transferred to student. The former question needs Knowledge Selection Strategy (KSS), while the latter needs Knowledge Transfer Strategy (KTS). Continual object detection face two problems. (1) Teacher outputs probability distributions as logits and converts them into one-hot labels as final predictions. Logits and one-hot labels are regarded as soft and hard knowledge, respectively. Soft knowledge contains confidence relations among categories, but brings knowledge fuzziness inevitably. While, hard knowledge has completely opposite effects. Therefore, how to design KSS to keep balance between accuracy and ambiguity of knowledge is a key problem. (2) Continual learning should maintain old knowledge during the learning of new knowledge to overcome catastrophic forgetting, therefore how to design KTS to keep balance between stability of old knowledge and plasticity of new knowledge is a key problem.*
+
+From the method section, first technical contribution: *Our method combines soft knowledge and hard knowledge dynamically to form a hybrid knowledge representation for every input image. However, although soft knowledge reflects more between-class information than hard knowledge, it also brings fuzziness to knowledge inevitably, which makes student confused during distillation learning. Meanwhile, teacher confidence reflects knowledge quality. If teacher has high confidence about its predictions, we should further strengthen this trend so that student can feel the certainty of this knowledge. Conversely, if teacher has low confidence, we should not do that.*
+
+From the method section, second technical contribution: *The key problem of distillation learning is to keep balance between old and new tasks. Motivated by this insight, we propose a task regularized distillation method (TRD) to solve the imbalance. Obviously, the loss for old classes and new classes will be always equal to each other during the entire continual learning, which ensures a completely dynamic balance between old and new tasks regardless of their data imbalance.*
+
+
+2) SSDA-YOLO: Semi-supervised domain adaptive YOLO for cross-domain object detection (CVIU)
+
+
 
 # PAPERS on Continual Object Detection (COD) 
 
