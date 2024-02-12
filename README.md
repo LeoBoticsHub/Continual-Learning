@@ -50,11 +50,16 @@ Continual Learning for Robotics: Definition, Framework, Learning Strategies, Opp
 
 # KNOWLEDGE DISTILLATION FROM CLASSIFICATION LITERATURE
 
-Learning without Forgetting (LWF) - Z. Li, D. Hoiem, Learning without forgetting, IEEE transactions on pattern analysis and machine intelligence 40 (2017) 2935–2947.
+1) Learning without Forgetting (LWF) - Z. Li, D. Hoiem, Learning without forgetting, IEEE transactions on pattern analysis and machine intelligence 40 (2017) 2935–2947.
 
-Less-forgetting Learning in Deep Neural Networks - Jung, H., Ju, J., Jung, M., & Kim, J. (2016). Less-forgetting learning in deep neural networks. arXiv preprint arXiv:1607.00122.
+2) Less-forgetting Learning in Deep Neural Networks - Jung, H., Ju, J., Jung, M., & Kim, J. (2016). Less-forgetting learning in deep neural networks. arXiv preprint arXiv:1607.00122.
 
-Elastic Weight Consolidation (EWC) - J. Kirkpatrick, R. Pascanu, N. Rabinowitz, J. Veness, G. Desjardins, A. A. Rusu, K. Milan, J. Quan, T. Ramalho, A. Grabska-Barwinska, et al., Overcoming catastrophic forgetting in neural networks, Proceedings of the national academy of sciences 114 (2017) 3521–3526.
+3) Elastic Weight Consolidation (EWC) - J. Kirkpatrick, R. Pascanu, N. Rabinowitz, J. Veness, G. Desjardins, A. A. Rusu, K. Milan, J. Quan, T. Ramalho, A. Grabska-Barwinska, et al., Overcoming catastrophic forgetting in neural networks, Proceedings of the national academy of sciences 114 (2017) 3521–3526.
+
+4) Continual Learning for Domain Adaptation in Chest X-ray Classification
+
+From the conclusion section: *Our quantitative evaluation, including the measurement of Backward and Forward Transfer, confirmed that employing these methods indeed improves the overall model per-
+formance, compared to a simple continuation of the model training on the new domain. The best performance was achieved by Joint Training (JT)-100%, i.e. training the model on the entire combined datasets from both domains. However, in real world scenarios, e.g. adapting models which are already deployed in the clinic, for legal and privacy reasons it is questionable that the data used for training the original model is always accessible. Hence, the EWC and LWF methods which do not rely on old training samples are of high practical relevance. Our experiments indicate that these regularization techniques indeed allow a model adaption to the target domain while preserving a performance on the original domain which is still close to the JT baseline.*
 
 
 # PAPERS on Continual Object Detection (COD) 
@@ -90,4 +95,6 @@ Re-examining Distillation for Continual Object Detection
 # OTHERS:
 
 iCaRL: Incremental Classifier and Representation Learning
+
+
 
