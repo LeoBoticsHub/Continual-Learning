@@ -48,7 +48,7 @@ Authors found out that even though most of the current research appeals to the s
 Continual Learning for Robotics: Definition, Framework, Learning Strategies, Opportunities and Challenges
 
 
-# KNOWLEDGE DISTILLATION FROM CLASSIFICATION LITERATURE
+# KNOWLEDGE DISTILLATION (KD) FROM CLASSIFICATION LITERATURE
 
 1) Learning without Forgetting (LWF) - Z. Li, D. Hoiem, Learning without forgetting, IEEE transactions on pattern analysis and machine intelligence 40 (2017) 2935–2947.
 
@@ -60,6 +60,11 @@ Continual Learning for Robotics: Definition, Framework, Learning Strategies, Opp
 
 From the conclusion section: *Our quantitative evaluation, including the measurement of Backward and Forward Transfer, confirmed that employing these methods indeed improves the overall model per-
 formance, compared to a simple continuation of the model training on the new domain. The best performance was achieved by Joint Training (JT)-100%, i.e. training the model on the entire combined datasets from both domains. However, in real world scenarios, e.g. adapting models which are already deployed in the clinic, for legal and privacy reasons it is questionable that the data used for training the original model is always accessible. Hence, the EWC and LWF methods which do not rely on old training samples are of high practical relevance. Our experiments indicate that these regularization techniques indeed allow a model adaption to the target domain while preserving a performance on the original domain which is still close to the JT baseline.*
+
+5) Szatkowski, Filip, et al. "Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning." Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2024.
+
+From the intro section: *Motivated by the recent domain adaptation methods, we examine the role of batch normalization statistics in class incremental learning (CIL) training. We conjecture that in standard KD methods,the KD loss between models with different normalization statistics may introduce unwanted model updates due to the data distribution shifts. To avoid this, we propose to continuously adapt them to the new data for the teacher model while training the student. We show that adapting the teacher’s batch normalization statistics to the new task can significantly lower KD loss without affecting the CE loss, which reduces changes in the model’s representations. We note that, while the idea of changing the teacher model was explored in the standard KD settings our approach is the first application of this idea to CIL scenario, where the teacher and the model are trained on non-overlapping data. Moreover, our method works differently by exploiting the batch
+normalization statistics.*
 
 # KNOWLEDGE DISTILLATION FOR Continual Object Detection (COD)
 
