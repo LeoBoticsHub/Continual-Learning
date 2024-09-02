@@ -117,5 +117,35 @@ Re-examining Distillation for Continual Object Detection
 
 iCaRL: Incremental Classifier and Representation Learning
 
+# Continual-Learning vs Continuos-Learning
+
+*Continual:* "Continual" refers to something that occurs frequently, with regular intervals or repetitions, often with occasional breaks or interruptions. It implies a recurring pattern or repeated occurrences over time.
+
+*Continuous:* "Continuous" describes something that occurs without interruption, break, or cessation. It indicates a state of uninterrupted or unbroken duration, without pauses or gaps.
+
+## 1. Continual Learning:
+
+*Definition:* Continual learning refers to the ability of a model to learn new tasks or knowledge over time without forgetting previously learned tasks. This concept is also known as lifelong learning.
+
+*Application in Computer Vision:* In computer vision, continual learning involves updating a model as new visual data or tasks become available, without needing to retrain the model from scratch. For instance, a model could first be trained to recognize cats and dogs, and later be extended to recognize birds, while still retaining the ability to recognize cats and dogs.
+
+*Key Challenges:* One of the primary challenges in continual learning is catastrophic forgetting, where the model loses its ability to perform well on previously learned tasks when it learns new ones.
+
+## 2. Continuous Learning:
+
+*Definition:* Continuous learning is a broader term that generally refers to the ongoing process of learning and improving over time. It emphasizes the perpetual nature of learning, where updates and improvements are constantly being made.
+
+*Application in Computer Vision:* In computer vision, continuous learning might refer to a model that is continuously trained or fine-tuned with new data as it becomes available. This could involve updating the model with new images in real-time or batch updates without necessarily changing the task the model is solving.
+
+*Key Aspect:* The focus in continuous learning is on the uninterrupted and consistent learning process rather than the ability to retain knowledge across multiple tasks.
+
+*Summary:*
+
+Continual Learning focuses on the ability to learn multiple tasks sequentially without forgetting previous tasks.
+Continuous Learning refers to a never-ending process of learning, where the model is continually improved or updated with new data.
+
+In practice, continual learning is a more specific and challenging area of research in machine learning, especially relevant for scenarios where models need to adapt to new tasks or data distributions over time.
+
+
 
 
