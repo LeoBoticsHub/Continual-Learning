@@ -146,6 +146,6 @@ Continuous Learning refers to a never-ending process of learning, where the mode
 
 In practice, continual learning is a more specific and challenging area of research in machine learning, especially relevant for scenarios where models need to adapt to new tasks or data distributions over time.
 
-
+COMMENTS: *to train a model with continual or continuos learning the problem of preserving old knowledge still remains I guess. I cannot put all the saved data during training, because the memory explodes and so strategy of data choice has to be adapted, e.g. dataset distillation. Probably continual has the difference to consider new tasks that become available. e.g. addition of classes while continuos could be adopted when only new patterns in data become available and the model has to continuosly adapt to environment changes for example while keeping the original classes (the scenario that we want to tackle first in BU Automation projects). The difference is subtle and sometimes the two terms are used interchangeably.*
 
 
